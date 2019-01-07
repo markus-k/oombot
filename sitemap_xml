@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Content-Type: text/xml"
+echo ""
+
+echo '<?xml version="1.0" encoding="UTF-8"?>'
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+echo '  <url>'
+echo -n '    <loc>http://www.example.com/'
+
+./oombot garbage
